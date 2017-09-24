@@ -1,0 +1,11 @@
+*.class
+*.jar
+.hg/
+.hgignore
+/.lein-*
+/.nrepl-port
+/checkouts
+/classes
+/scratch
+/target
+pom.xml.asc
