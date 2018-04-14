@@ -11,9 +11,9 @@
   <packaging>pom</packaging>
   
   <scm>
-    <connection>scm:git:ssh://git@bitbucket.org/mdpendergrass/kosmos-dynamodb-local-native.git</connection>
-    <developerConnection>scm:git:ssh://git@bitbucket.org/mdpendergrass/kosmos-dynamodb-local-native.git</developerConnection>
-    <url>https://bitbucket.org/mdpendergrass/kosmos-dynamodb-local-native.git</url>
+    <connection>scm:git:ssh://git@github.com:pupcus/kosmos-dynamodb-local-native.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:pupcus/kosmos-dynamodb-local-native.git</developerConnection>
+    <url>https://github.com/pupcus/kosmos-dynamodb-local-native</url>
   </scm>
   
   <developers>
@@ -23,6 +23,22 @@
       <name>Michael D. Pendergrass</name>
     </developer>
   </developers>
+
+  <distributionManagement>
+
+    <repository>
+      <id>clojars</id>
+      <name>clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>clojars</id>
+      <name>clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </snapshotRepository>
+
+  </distributionManagement>
 
   <repositories>
 
